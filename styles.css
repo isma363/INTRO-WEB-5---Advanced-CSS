@@ -1,0 +1,61 @@
+
+
+#main{
+    background-color: whitesmoke;
+    align-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.color{
+    color: blue;
+    text-align: center;
+}
+
+.alert{
+    text color: #72353D;  
+    background-color: #EAD2D5;
+}
+
+.a{
+    display: inline-block;
+    height: 200px;
+    color: red;
+    background-color: red;
+    font-family: Verdana;
+    font-size: 1.5em;
+    margin: 150px, auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 40%;
+    transform: rotate(90deg);
+    animation: mymoves 5s infinite;
+}
+
+
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+
+@keyframes mymoves {
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
+.b{
+    display: inline-block;
+    height: 200px;
+    color: blue;
+    background-color: blue;
+    font-family: Verdana;
+    font-size: 1.5em;
+    margin: 150px, auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 40%;
+    transform: rotate(90deg);
+    animation: mymove 5s infinite;
+
+}
